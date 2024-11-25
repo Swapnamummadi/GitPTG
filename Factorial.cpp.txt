@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int num = 5, fact = 1;
+	
+	if(num == 0 || num == 1)
+	{
+		cout<<"factorial of a "<<num<<" is 1"<<endl;
+	}
+	else
+	{
+		for(int i = num; i > 0; i--)
+		{
+			fact = fact*i;
+		}
+		cout<<"Factorial of "<<num<<" is "<<fact<<endl;
+	}
+	return 0;
+}
